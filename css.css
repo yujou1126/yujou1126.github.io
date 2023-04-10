@@ -1,5 +1,39 @@
-
+/* 修改全域文字字型與顏色 */
 body {
-    background-color: lightcyan;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
+/* 為標題添加背景色和下劃線 */
+h1 {
+    background-color: #f8b195;
+    border-bottom: 3px solid #c06c84;
+    padding-bottom: 5px;
+}
+
+/* 增加導航欄背景顏色，並添加文字陰影效果 */
+nav {
+    background-color: #3b3b3b;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* 增加按鈕的漸層背景和邊框 */
+button {
+    background: linear-gradient(to bottom, #2c3e50, #34495e);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+/* 設定頁腳的位置、背景顏色和文字顏色 */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    color: #777;
+    text-align: center;
+    line-height: 60px;
+}
