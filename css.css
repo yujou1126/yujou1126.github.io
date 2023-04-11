@@ -37,3 +37,15 @@ footer {
     text-align: center;
     line-height: 60px;
 }
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+
+}
+.btn{
+background-color: #90cfd9;
+    color: #333333;
+
+}
