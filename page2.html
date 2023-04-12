@@ -14,12 +14,12 @@
             margin: 20px 0;
             border: none;
             border-radius: 10px;
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             transition: 0.3s;
         }
 
         .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
 
         .card-img-top {
@@ -54,81 +54,152 @@
         .card-text {
             font-size: 18px;
         }
+
         .dropdown-menu {
             position: absolute;
             top: 100%;
             right: 0;
             left: auto;
+        }
     </style>
 </head>
-<body>
+<body style="font-family: Arial, sans-serif;">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">羽肉的小窩</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">快速前往</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+                aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#">自我介紹</a></li>
-                        <li><a class="dropdown-item" href="#">演出作品</a></li>
-                        <li><a class="dropdown-item" href="#">拍攝作品</a></li>
-                    </ul>
+                    <div class="dropdown">
+                        <button class="toc-button btn" onclick="location.href='#section3'">自我介紹</button>
+                        <button class="toc-button btn" onclick="location.href='#section4'">演出作品</button>
+                        <button class="toc-button btn" onclick="location.href='#section5'">youtube</button>
+
+  </nav>
+
+<style>
+    .toc-button {
+        display: inline-block;
+        padding: 10px;
+        background-color: #439ed0;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+</style>
+<section id="section3">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+            integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+            integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+            crossorigin="anonymous"></script>
+    <div class="container">
+        <div class="card">
+            <img src="https://cdn.discordapp.com/attachments/495919477855092736/1095049353485373530/B5BF21B3-580E-434E-B35B-D92699C8BD03.jpg"
+                 class="card-img-top" alt="your-image-description">
+            <div class="card-body">
+                <h5 style="font-size: 32px; font-weight: bold;" class="card-title">羽肉 aka 安全島美少女</h5>
+                <p class="card-text">
+                    哈囉大家好，我是夢想成為一隻海豹的少女，雖然說是想成為一隻無憂無慮無所事事的海豹，現實卻是充實到一個不得了的女大學生，
+                    平日上課上班，休假就去場勘找演員拍片，遇到期中期末週更是精彩的不得了，總之在現實中是一位認真生活的女生，希望大家可以可憐可憐我來幫我拍片，來演我的戲，贊助我我會更愛你們><</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">ig:羽肉<br>yt:羽肉羽肉<br>簡單吧，羽肉跟羽肉平方XD</li>
+                <li class="list-group-item">我就做以下連結來讓大家方便找到我，有話想跟我說都可以IG小盒子私訊我唷(๑´ڡ`๑)
                 </li>
             </ul>
+            <div class="card-body">
+                <a href="https://www.instagram.com/staycwc_11.26/" target="_blank" class="card-link">ig點我</a>
+                <a href="https://www.youtube.com/channel/UCTqK6pNnGVlpo5TUy4IXEBQ" target="_blank"
+                   class="card-link">yt點我</a>
+            </div>
         </div>
-    </div>
-</nav>
-
-<div class="container">
-    <div class="card">
-        <img src="https://cdn.discordapp.com/attachments/495919477855092736/1095049353485373530/B5BF21B3-580E-434E-B35B-D92699C8BD03.jpg"
-             class="card-img-top" alt="your-image-description">
-        <div class="card-body">
-            <h5 class="card-title">羽肉 aka 安全島美少女</h5>
-            <p class="card-text">
-                哈囉大家好，我是夢想成為一隻海豹的少女，雖然說是想成為一隻無憂無慮無所事事的海豹，現實卻是充實到一個不得了的女大學生，
-                平日上課上班，休假就去場勘找演員拍片，遇到期中期末週更是精彩的不得了，總之在現實中是一位認真生活的女生，希望大家可以可憐可憐我來幫我拍片，來演我的戲，贊助我我會更愛你們><</p>
-        </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">ig:羽肉<br>yt:羽肉羽肉<br>簡單吧，羽肉跟羽肉平方XD</li>
-            <li class="list-group-item">我就做以下連結來讓大家方便找到我，有話想跟我說都可以IG小盒子私訊我唷(๑´ڡ`๑)</li>
-        </ul>
-        <div class="card-body">
-            <a href="https://www.instagram.com/staycwc_11.26/" target="_blank" class="card-link">ig點我</a>
-            <a href="https://www.youtube.com/channel/UCTqK6pNnGVlpo5TUy4IXEBQ" target="_blank" class="card-link">yt點我</a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="https://i.ytimg.com/an_webp/A2WnQgQRoiY/mqdefault_6s.webp?du=3000&sqp=CP7J1aEG&rs=AOn4CLCNmFmCDOGneu9rLqoCuu_u9V9mbw" class="width: 50%;
+        <section id="section4">
+            <div class="card">
+                <img src="https://i.ytimg.com/an_webp/A2WnQgQRoiY/mqdefault_6s.webp?du=3000&sqp=CKCj26EG&rs=AOn4CLDiTfbYyPw0IaOEZyLJMV-63ij0Pw"
+                     class="width: 50%;
          height: auto;>
 
-    <div class="card-body>
-        <h5 class="card-title">棘</h5>
-        <p class="card-text">這是我的代表作，身為製片也身為主演，人生第一部藝術片，爆肝了一個禮拜跟組員做出來的，偷偷告訴大家背後的辛酸，第一件事是為了場勘要6個人擠一台車，但意外發現後車廂其實不錯睡，
-            第二件事是我在拍攝前一、兩個禮拜出車禍，奉勸大家騎車慢慢騎，該繞就繞，不要不會壓彎又硬要轉彎，後果不堪設想阿，因為在溼地拍攝，我只能說我帶了整個醫療包，一有空檔就開始舔包，重新包紮，
-            拍攝結束後剛好有時間去回診，結果傷口直接爛掉，被醫生臭罵了一頓。<br>題外話，採到藤壺螃蟹腳超痛，超級痛!!!腳直接被刺出一個洞.</p>
-        <a href="https://youtu.be/A2WnQgQRoiY" class="btn btn-primary">點我觀看</a>
+    <div class=" card-body>
+                <h5 class="card-title">棘</h5>
+                <p class="card-text">
+                    這是我的代表作，身為製片也身為主演，人生第一部藝術片，爆肝了一個禮拜跟組員做出來的，偷偷告訴大家背後的辛酸，第一件事是為了場勘要6個人擠一台車，但意外發現後車廂其實不錯睡，
+                    第二件事是我在拍攝前一、兩個禮拜出車禍，奉勸大家騎車慢慢騎，該繞就繞，不要不會壓彎又硬要轉彎，後果不堪設想阿，因為在溼地拍攝，我只能說我帶了整個醫療包，一有空檔就開始舔包，重新包紮，
+                    拍攝結束後剛好有時間去回診，結果傷口直接爛掉，被醫生臭罵了一頓。<br>題外話，採到藤壺螃蟹腳超痛，超級痛!!!腳直接被刺出一個洞.
+                </p>
+                <a href="https://youtu.be/A2WnQgQRoiY" class="btn btn-primary">點我觀看</a>
+            </div>
+        </section>
     </div>
+</section>
+<section id="section5">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+            integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+            integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+            crossorigin="anonymous"></script>
+    <div class="container">
+    <div class="card">
+        <img src="https://cdn.discordapp.com/attachments/1023662992698650654/1095777339587174461/679.JPEG"
+             class="width: 50%;
+         height: auto;>
+    <div class=" card-body>
+        <h5 class="card-title">開箱影片</h5>
+        <p class="card-text">這個影片的前身原本是想拍參加交換禮物換到的禮物，但重新拍了2、3次後發現內容太過無趣，太過大眾，完全不有趣，我對於商品的形容也很爛，就在我剪片撿到生無可戀的時候，
+            腦袋忽然靈光乍現，當時大家對抖音的評價非常的兩極，一個是變成網紅的跳躍平台，另一個是抖音一拍父母白養的評價，讓我回想起國中時剛盛行抖音，而我本身就是很喜歡讓大家關注的人，
+            所以當時的我也會硬著頭皮去拍一些僵硬到不行的社會搖、尷尬到不行的手指舞，這些都成為我的黑歷史，所以我決定讓大家看看被我隱藏的黑歷史。<br>題外話，當時交換禮物其實我快剪完了，但真的很無聊就直接刪掉，
+            計畫趕不上變化的女人is me。
+        </p>
+        <a href="https://www.youtube.com/watch?v=b0LFqvj29bs&t=6s" class="btn btn-primary">點我觀看</a>
+    </div>
+ </section>
 </div>
-
-<<div class="card">
-    <img src="https://i.ytimg.com/an_webp/b0LFqvj29bs/mqdefault_6s.webp?du=3000&sqp=CLLv1aEG&rs=AOn4CLCxUTWx95naisvNGEeGHycxHrSMUg" class="card-img-top" alt="...">
+</section>
+<div class="card">
+    <img src="https://i.ytimg.com/an_webp/b0LFqvj29bs/mqdefault_6s.webp?du=3000&sqp=CL-g26EG&rs=AOn4CLCa4MhO-IvNR4xLcPl9epchX-Ah5Q"
+         class="card-img-top" alt="...">
     <div class="card-body">
-        <h5 class="card-title">Card Title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">平時的羽肉</h5>
+        <p class="card-text">
+            在不熟的人面前的形象大概就是活潑可愛的氣質美女<br>在同事眼中又是認真生活努力做事的女強人<br>在朋友眼中又是逗趣的傻逼.
+        </p>
+        <a href="index.html" class="btn btn-primary">回到上一頁</a>
     </div>
 </div>
-
-}
-    </style>
-    </div>
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="index.html" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="page2.html">2</a></li>
+        <li class="page-item">
+            <a class="page-link" href="page2.html" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+</style>
+</div>
 </div>
 </body>
 </html>
